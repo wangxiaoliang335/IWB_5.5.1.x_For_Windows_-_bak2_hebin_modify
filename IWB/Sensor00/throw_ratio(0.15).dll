@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--镜头配置参数-->
+<LensConfig>
+    <!--引导框的位置和颜色, value range: left=[0-639]; top=[0-479]; width=[0-640]; height=[0-480]; color=[RRGGBB] RGB color value is defined in hexadecimal format, e.g: FF0000 is red,  00FF00 is green, 0000FF is blue-->
+    <Param name="GuideBox" left="20" top="15" width="600" height="305" color="ff0000" visible="Yes" />
+    <!--手指触控模式下的正常使用参数-->
+    <NormalUsage-FingerTouch>
+        <!--光斑触发门限-->
+        <Param name="YThreshold" value="205" default="205" />
+        <!--自动屏蔽门限占光斑触发门限的百分比(50~100)-->
+        <Param name="DynmicMaskThresholdPercentage" value="80" default="80" />
+        <!--最小光斑的宽度-->
+        <Param name="LightSpotMinimumWidth" value="2" default="2" />
+        <!--最小光斑的高度-->
+        <Param name="LightSpotMinimumHeight" value="2" default="2" />
+        <!--正常使用时的相机参数-->
+        <CameraParams>
+            <!--亮度-->
+            <Param name="Brightness" value="150" default="150" />
+            <!--对比度-->
+            <Param name="Contrast" value="255" default="255" />
+            <!--色调-->
+            <Param name="Hue" value="0" default="0" />
+            <!--饱和度-->
+            <Param name="Saturation" value="64" default="64" />
+            <!--清晰度-->
+            <Param name="Sharpness" value="1" default="1" />
+            <!--伽玛值-->
+            <Param name="Gamma" value="2" default="2" />
+            <!--颜色启动-->
+            <Param name="ColorEnable" value="0" default="0" />
+            <!--白平衡-->
+            <Param name="WhiteBalance" value="5000" default="5000" />
+            <!--背光补偿-->
+            <Param name="BacklightCompensation" value="2" default="2" />
+            <!--增益-->
+            <Param name="Gain" value="17578" default="17578" />
+        </CameraParams>
+    </NormalUsage-FingerTouch>
+    <!--笔触控模式下的正常使用参数-->
+    <NormalUsage-PenTouch>
+        <!--光斑触发门限-->
+        <Param name="YThreshold" value="205" default="205" />
+        <!--自动屏蔽门限占光斑触发门限的百分比(50~100)-->
+        <Param name="DynmicMaskThresholdPercentage" value="80" default="80" />
+        <!--最小光斑的宽度-->
+        <Param name="LightSpotMinimumWidth" value="2" default="2" />
+        <!--最小光斑的高度-->
+        <Param name="LightSpotMinimumHeight" value="2" default="2" />
+        <!--正常使用时的相机参数-->
+        <CameraParams>
+            <!--亮度-->
+            <Param name="Brightness" value="60" default="60" />
+            <!--对比度-->
+            <Param name="Contrast" value="255" default="255" />
+            <!--色调-->
+            <Param name="Hue" value="0" default="0" />
+            <!--饱和度-->
+            <Param name="Saturation" value="64" default="64" />
+            <!--清晰度-->
+            <Param name="Sharpness" value="1" default="1" />
+            <!--伽玛值-->
+            <Param name="Gamma" value="1" default="1" />
+            <!--颜色启动-->
+            <Param name="ColorEnable" value="0" default="0" />
+            <!--白平衡-->
+            <Param name="WhiteBalance" value="5000" default="5000" />
+            <!--背光补偿-->
+            <Param name="BacklightCompensation" value="2" default="2" />
+            <!--增益-->
+            <Param name="Gain" value="17578" default="17578" />
+        </CameraParams>
+    </NormalUsage-PenTouch>
+    <!--安装调试模式参数-->
+    <InstallTunning>
+        <!--安装调试模式下的相机参数-->
+        <CameraParams>
+            <!--亮度-->
+            <Param name="Brightness" value="150" default="150" />
+            <!--对比度-->
+            <Param name="Contrast" value="150" default="150" />
+            <!--色调-->
+            <Param name="Hue" value="0" default="0" />
+            <!--饱和度-->
+            <Param name="Saturation" value="64" default="64" />
+            <!--清晰度-->
+            <Param name="Sharpness" value="1" default="1" />
+            <!--伽玛值-->
+            <Param name="Gamma" value="1" default="1" />
+            <!--颜色启动-->
+            <Param name="ColorEnable" value="0" default="0" />
+            <!--白平衡-->
+            <Param name="WhiteBalance" value="5000" default="5000" />
+            <!--背光补偿-->
+            <Param name="BacklightCompensation" value="2" default="2" />
+            <!--增益-->
+            <Param name="Gain" value="13226" default="13226" />
+        </CameraParams>
+    </InstallTunning>
+    <!--激光器调试模式参数-->
+    <LaserTunning>
+        <!--激光器调试模式下的相机参数-->
+        <CameraParams>
+            <!--亮度-->
+            <Param name="Brightness" value="150" default="150" />
+            <!--对比度-->
+            <Param name="Contrast" value="150" default="150" />
+            <!--色调-->
+            <Param name="Hue" value="0" default="0" />
+            <!--饱和度-->
+            <Param name="Saturation" value="64" default="64" />
+            <!--清晰度-->
+            <Param name="Sharpness" value="1" default="1" />
+            <!--伽玛值-->
+            <Param name="Gamma" value="2" default="2" />
+            <!--颜色启动-->
+            <Param name="ColorEnable" value="0" default="0" />
+            <!--白平衡-->
+            <Param name="WhiteBalance" value="5000" default="5000" />
+            <!--背光补偿-->
+            <Param name="BacklightCompensation" value="2" default="2" />
+            <!--增益-->
+            <Param name="Gain" value="17578" default="17578" />
+        </CameraParams>
+    </LaserTunning>
+    <!--自动校正参数-->
+    <AutoCalibrate>
+        <!--自动校正参数列表-->
+        <ImageParamsList>
+            <!--第(1)组自动校正画面参数-->
+            <ImageParams>
+                <!--自动校正亮度自动控制时期望的平均画面亮度(范围0~255)-->
+                <Param name="autoCalibrateExpectedBrightness" value="100" default="100" />
+                <!--自动校正图案中高亮块的灰度值(0~255)-->
+                <Param name="AutoCalibrateHilightGray" value="255" default="255" />
+            </ImageParams>
+            <!--第(2)组自动校正画面参数-->
+            <ImageParams>
+                <!--自动校正亮度自动控制时期望的平均画面亮度(范围0~255)-->
+                <Param name="autoCalibrateExpectedBrightness" value="100" default="100" />
+                <!--自动校正图案中高亮块的灰度值(0~255)-->
+                <Param name="AutoCalibrateHilightGray" value="180" default="180" />
+            </ImageParams>
+            <!--第(3)组自动校正画面参数-->
+            <ImageParams>
+                <!--自动校正亮度自动控制时期望的平均画面亮度(范围0~255)-->
+                <Param name="autoCalibrateExpectedBrightness" value="70" default="70" />
+                <!--自动校正图案中高亮块的灰度值(0~255)-->
+                <Param name="AutoCalibrateHilightGray" value="120" default="120" />
+            </ImageParams>
+        </ImageParamsList>
+        <!--自动校正相机参数-->
+        <CameraParams>
+            <!--亮度-->
+            <Param name="Brightness" value="120" default="120" />
+            <!--对比度-->
+            <Param name="Contrast" value="50" default="50" />
+            <!--色调-->
+            <Param name="Hue" value="0" default="0" />
+            <!--饱和度-->
+            <Param name="Saturation" value="64" default="64" />
+            <!--清晰度-->
+            <Param name="Sharpness" value="1" default="1" />
+            <!--伽玛值-->
+            <Param name="Gamma" value="1" default="1" />
+            <!--颜色启动-->
+            <Param name="ColorEnable" value="0" default="0" />
+            <!--白平衡-->
+            <Param name="WhiteBalance" value="5000" default="5000" />
+            <!--背光补偿-->
+            <Param name="BacklightCompensation" value="2" default="2" />
+            <!--增益-->
+            <Param name="Gain" value="13226" default="13226" />
+        </CameraParams>
+    </AutoCalibrate>
+    <!--自动屏蔽参数-->
+    <AutoMask>
+        <!--自动屏蔽目标检测门限0~255, 值越小则屏蔽的区域越多-->
+        <Param name="AutoMaskDetectThreshold" value="180" default="180" />
+        <!--自动屏蔽区腐蚀尺寸-->
+        <Param name="MaskAreaEroseSize" value="8" default="8" />
+    </AutoMask>
+    <!--镜头规格-->
+    <LensSpec>
+        <!--镜头后焦距, 单位:mm-->
+        <Param name="backFocalLength" value="2.7" />
+        <!--水平视角, 单位:度-->
+        <Param name="FOV_horz" value="146" />
+        <!--垂直视角, 单位:度-->
+        <Param name="FOV_vert" value="105" />
+        <!--对角线视角, 单位:度-->
+        <Param name="FOV_diagonal" value="175" />
+        <!--投射比-->
+        <Param name="Throw Ratio" value="0.15" />
+    </LensSpec>
+    <!--自动校正补偿系数-->
+    <AutoCalibCompensateCoefs>
+        <Param name="CompensateCoefficient" value="3.94101999999999996760e+00" />
+        <Param name="CompensateCoefficient" value="-2.28787999999999991374e+00" />
+        <Param name="CompensateCoefficient" value="1.17880000000000006999e+00" />
+        <!--归一化后的水平光心坐标-->
+        <Param name="u0" value="5.34972257812500018304e-01" />
+        <!--归一化后的垂直光心坐标-->
+        <Param name="v0" value="3.98383408333333355333e-01" />
+    </AutoCalibCompensateCoefs>
+    <!--相机内部和对称畸变参数-->
+    <LensInternalAndSymmetricDistortionParams>
+        <!--相机内部参数mu-->
+        <Param name="mu" value="1.22754000000000007553e+00" />
+        <!--相机内部参数mv-->
+        <Param name="mv" value="1.22628000000000003666e+00" />
+        <!--相机内部参数u0-->
+        <Param name="u0" value="3.18521000000000015007e+02" />
+        <!--相机内部参数v0-->
+        <Param name="v0" value="2.47995000000000004547e+02" />
+        <!--镜头对称畸变参数k1-->
+        <Param name="k1" value="2.02660576999999989312e+02" />
+        <!--镜头对称畸变参数k2-->
+        <Param name="k2" value="-1.56747400000000003395e+00" />
+        <!--镜头对称畸变参数k3-->
+        <Param name="k3" value="4.00957700000000016871e+00" />
+        <!--镜头对称畸变参数k4-->
+        <Param name="k4" value="-3.27477600000000013125e+00" />
+        <!--镜头对称畸变参数k5-->
+        <Param name="k5" value="9.24703999999999970427e-01" />
+    </LensInternalAndSymmetricDistortionParams>
+</LensConfig>
