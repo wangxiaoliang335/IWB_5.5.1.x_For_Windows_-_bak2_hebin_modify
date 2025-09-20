@@ -1,0 +1,5 @@
+E:\iwb_-shoot\IWB_5.5.1.x_For_Windows_多屏修改_bak\IWB_TUIO\Debug\libTUIO\libTUIO.vcxproj.AssemblyReference.cache
+G:\IWB_Shoot\iwb_-shoot\IWB_5.5.1.x_For_Windows_多屏修改_bak\IWB_TUIO\Debug\libTUIO\libTUIO.vcxprojAssemblyReference.cache
+D:\IWB_5.5.1.x\IWB_5.5.1.x_For_Windows_多屏修改_bak2\IWB_TUIO\Debug\libTUIO\libTUIO.vcxproj.AssemblyReference.cache
+D:\IWB_5.5.1.x\IWB_5.5.1.x_For_Windows_多屏修改_bak2_hebin\IWB_TUIO\Debug\libTUIO\libTUIO.vcxproj.AssemblyReference.cache
+D:\IWB_5.5.1.x\IWB_5.5.1.x_For_Windows_多屏修改_bak2_hebin_modify\IWB_TUIO\Debug\libTUIO\libTUIO.vcxproj.AssemblyReference.cache

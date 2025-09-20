@@ -1,0 +1,25 @@
+﻿  NetworkingUtils.cpp
+  OscOutboundPacketStream.cpp
+  OscPrintReceivedElements.cpp
+  OscReceivedElements.cpp
+  OscTypes.cpp
+  UdpSocket.cpp
+  FlashSender.cpp
+  OscReceiver.cpp
+  OscSender.cpp
+  TcpReceiver.cpp
+  TcpSender.cpp
+  TuioBlob.cpp
+  TuioClient.cpp
+  TuioContainer.cpp
+  TuioCursor.cpp
+  TuioDispatcher.cpp
+  TuioManager.cpp
+  TuioObject.cpp
+  TuioPoint.cpp
+  TuioServer.cpp
+  正在编译...
+  TuioTime.cpp
+  UdpReceiver.cpp
+  UdpSender.cpp
+  libTUIO.vcxproj -> D:\IWB_5.5.1.x\IWB_5.5.1.x_For_Windows_多屏修改_bak2_hebin_modify\IWB_TUIO\Release\libTUIO.lib

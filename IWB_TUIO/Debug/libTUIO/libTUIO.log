@@ -1,0 +1,30 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  UdpSender.cpp
+  UdpReceiver.cpp
+  TuioTime.cpp
+  TuioServer.cpp
+  TuioPoint.cpp
+  TuioObject.cpp
+  TuioManager.cpp
+  TuioDispatcher.cpp
+  TuioCursor.cpp
+  TuioContainer.cpp
+  TuioClient.cpp
+D:\IWB_5.5.1.x\IWB_5.5.1.x_For_Windows_多屏修改_bak2_hebin_modify\IWB_TUIO\TUIO\TuioClient.cpp(275,32): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“double”
+  TuioBlob.cpp
+  TcpSender.cpp
+  TcpReceiver.cpp
+  OscSender.cpp
+  OscReceiver.cpp
+  FlashSender.cpp
+  UdpSocket.cpp
+  OscTypes.cpp
+  OscReceivedElements.cpp
+  正在生成代码...
+  正在编译...
+  OscPrintReceivedElements.cpp
+  OscOutboundPacketStream.cpp
+  NetworkingUtils.cpp
+D:\IWB_5.5.1.x\IWB_5.5.1.x_For_Windows_多屏修改_bak2_hebin_modify\IWB_TUIO\oscpack\ip\win32\NetworkingUtils.cpp(87,25): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  正在生成代码...
+  libTUIO.vcxproj -> D:\IWB_5.5.1.x\IWB_5.5.1.x_For_Windows_多屏修改_bak2_hebin_modify\IWB_TUIO\Debug\libTUIO.lib
